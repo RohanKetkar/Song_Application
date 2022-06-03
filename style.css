@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Tiro+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Tiro+Bangla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    /* background-color: antiquewhite; */
+    /* background-color:rgb(130, 198, 246); */
+    background: linear-gradient( #33ccff 0%, #ff99cc 50%);
+
+}
+
+.navBar {
+    top: 0;
+    position: sticky;
+    display: flex;
+    background-color: black;
+
+}
+
+.navBar-Elements {
+    margin-top: 15px;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+
+a:hover {
+    color: greenyellow;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    text-decoration: none;
+
+    margin: 30px;
+}
+
+.editImg img {
+    margin: 5px 5px;
+    border: 0.7px solid whitesmoke;
+    border-radius: 50px;
+    width: 50px;
+
+}
+
+.bgImg {
+    /* border: 10px solid red; */
+    border-radius: 10px;
+
+    margin: 20px 75px;
+    height: 550px;
+    width: 1300px;
+}
+
+/* .mainDiv{
+    border:10px solid blue;
+} */
+.coverImg {
+    /* border: 2px solid red;
+    box-shadow: 5px 5px 40px rgb(162, 247, 77); */
+    border-radius: 10px;
+    margin-left: 20px;
+    /* padding-left: 20px; */
+    width: 45px;
+}
+
+.mainDiv {
+    /* height:550px;
+    width:1440px; */
+    background-image: url('Covers/edits.webp');
+    /* flex-direction: column;
+    display: flex; */
+    /* justify-content: left; */
+
+
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    ;
+}
+
+span {
+    font-size: 20px;
+    margin: 0px 35px;
+}
+
+.cover {
+
+    border-radius: 150px;
+
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    align-items: center;
+    display: flex;
+    margin: 30px 10px;
+}
+
+.name {
+    padding: 0px 35px;
+}
+
+.songListPlay{
+    /* padding:10px 10px; */
+    margin: 2px 5px;
+}
+/* margin-left:35px; */
+
+.ok {
+    margin: 0px 3px;
+    padding: 0px 10px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.inputs {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    width: 70%;
+}
+.inputs:hover{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    width: 70%;
+}
+
+.foot  {
+    padding: 5px;
+    height: 78px;
+    width: 1438px;
+    background-color: black;
+    bottom:0;
+  position: sticky;
+    /* display:flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* height: 40px; */
+}
+
+.gif {
+    height: 43px;
+    width: 101px;
+}
+
+.Icons {
+color:white;
+    margin-top: 10px;
+    /* width:60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    margin: 0px 5px;
+}
+#songInfo img{
+    
+}
+#songInfo {
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+    margin-top: -65px;
+    margin-left:125px;
+   /* position: absolute; */
+}
+/* #progressBar{
+    cursor: pointer;
+} */
